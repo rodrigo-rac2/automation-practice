@@ -1,0 +1,16 @@
+{
+  "name": "automation-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\nightwatch.cmd"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^83.0.0",
+    "nightwatch": "^1.3.6"
+  }
+}
