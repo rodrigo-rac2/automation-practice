@@ -13,6 +13,7 @@ module.exports = {
             .waitForElementVisible('a.home', 5000)
             .click('a.home')
             // select the first product
+//            .click('a.product-name[0]')
             .url('http://automationpractice.com/index.php?id_product=1&controller=product')
             // add it to the cart
             .useXpath()
