@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="POMLoginCart.test"
+    errors="0" failures="1" hostname="" id="" package="POMLoginCart.test" skipped="0"
+    tests="1" time="10.19" timestamp="">
+  
+    <testcase name="Logged in, add one product to cart and check" classname="POMLoginCart.test" time="10.19" assertions="3">
+
+    
+
+      <failure message="Timed out while waiting for element &lt;#password&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5106ms)">    at Page.setPassword (C:\rodrigo\automation-practice\pages\LoginPage.js:10:14)
+    at Page.loginWith (C:\rodrigo\automation-practice\pages\MainPage.js:20:14)
+    at Object.Logged in, add one product to cart and check (C:\rodrigo\automation-practice\tests\POM-business\POMLoginCart.test.js:9:14)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

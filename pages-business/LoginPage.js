@@ -13,8 +13,14 @@ var actions = {
     },
     clickSignInButton: function () {
         return this
-            .waitForElementVisible('@signInButton', 5000)
+            .waitForElementVisible('@signInButton')
             .click('@signInButton')
+    },
+    navigateToMainPage: function (browser) {
+        let mainPage = browser.page.MainPage()
+        
+        return mainPage
+            .returnToHome()
     }
 }
 var checks = {

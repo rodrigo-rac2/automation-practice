@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="LogInLinearCart.test"
+    errors="0" failures="0" hostname="" id="" package="LogInLinearCart.test" skipped="0"
+    tests="1" time="13.55" timestamp="">
+  
+    <testcase name="Logged in, add one product to cart and check" classname="LogInLinearCart.test" time="13.55" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

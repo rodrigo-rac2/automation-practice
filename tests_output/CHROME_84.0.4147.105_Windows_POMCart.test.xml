@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="POMCart.test"
+    errors="0" failures="0" hostname="" id="" package="POMCart.test" skipped="0"
+    tests="1" time="13.73" timestamp="">
+  
+    <testcase name="Add one product to the cart" classname="POMCart.test" time="13.73" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

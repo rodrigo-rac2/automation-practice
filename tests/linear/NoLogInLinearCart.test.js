@@ -1,24 +1,7 @@
 module.exports = {
-    'Simple search': function (browser) {
+    'Not logged in, add one product to cart and check': function (browser) {
         browser
             .url("http://automationpractice.com/")
-            //navigate to login page
-            .click('a.login')
-        //login
-        // .waitForElementVisible('#email', 5000)
-        // .setValue('#email', "petejenkins@test.com")
-        // .setValue('#passwd', "Password1234")
-        // .click('#SubmitLogin')
-        let login = browser.page.Login()
-        login
-            .assertPageIsLoaded()
-            .setEmail("petejenkins@test.com")
-            .setPassword("Password1234")
-            .clickSignInButton()
-        //navigate back to home page
-        browser
-            .waitForElementVisible('a.home', 5000)
-            .click('a.home')
             // select the first product
             .url('http://automationpractice.com/index.php?id_product=1&controller=product')
             // add it to the cart
